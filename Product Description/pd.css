@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logobg {
+    color:#FCEC01;
+}
+.circle-icon {
+    background: #217C2C;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.agromech-logo {
+display: flex;
+align-items: center;
+/* width: 20%; */
+}
+
+.navbar-search {
+    width: 45%;
+    position: relative;
+}
+
+.agromech {
+    font-family: poppins;
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color:#217C2C;
+}
+input[type=text] {
+    font-size: 15px;
+    padding: 10px 50px;
+    display: inline-block;
+    border: 1px solid #217C2C;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 6px 0px 0px 6px;
+}
+button {
+    font-size: 15px;
+    /* width: 80%; */
+    /* position: absolute; */
+    /* padding: 10px 20px; */
+    color: white;
+    display: inline-block;
+    background-color: #217C2C;
+    border: 1px solid #217C2C;
+    border-radius: 0px 6px 6px 0px;
+}
+.account, .wish, .cart {
+    font-family: poppins;
+    font-size: 20px;
+    line-height: 6px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.rni1 , .rni2, .rni3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rightnav-icons {
+    display: flex;
+    /* width: 30%; */
+} 
+
+.c1.img, .c2.img, .c3.img, .whatsapp.img {
+    display: inline;
+}
+
+/* main {
+    margin-top: 20px;
+} */
+
+ul.nl1 {
+    /* display: flex; */
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: #217C2C;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bar {
+    visibility: hidden;
+}
+
+.click {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px 20px;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.utility {
+    background-color: white;
+    box-shadow: 0px 0px 0.7px;
+    padding: 10px;
+    margin: 30px 70px;
+}
+
+main {
+    background-color: #FFFDE6;
+}
+
+.left {
+    /* margin-left: 30px; */
+    
+}
+.up {
+    padding: 60px 40px;
+    box-shadow: 0px 0px 0.7px;
+    background-color: white;
+}
+.low {
+    margin: 25px 0px;
+    box-shadow: 0px 0px 0.7px;
+    background-color: white;
+}
+
+.right {
+    padding: 60px 60px 10px 20px ;
+    box-shadow: 0px 0px 0.7px;
+    background-color: white;
+}
+
+.code {
+    /* margin-left:30px ; */
+}
+
+.color {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+span {
+    margin-left: 150px;
+}
+
+.select { 
+    margin: 10px 0px;
+}
+
+.bullet {
+    color: #217C2C;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list {
+    display: flex;
+    color: #217C2C;
+    padding: 20px;
+}
+
+.point {
+    display: flex;
+    flex-direction: column;
+    line-height: 34px;
+}
+
+.bp {
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.feat {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    margin: 15px 0px;
+    color: black;
+}
+
+.ab {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.atc,.bn {
+    
+    background-color: #FECE0C;
+    color: white;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: centre;
+    border: 1px solid #FECE0C;
+}
+
+.bn {
+    background-color: #217C2C;
+    border: 1px solid #217C2C;
+    margin-left: 0px;
+    padding: 10px 20px;
+}
+
+.atc {
+    padding: 10px 20px;
+}
+
+.view {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 70px;
+}
+
+.spec {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    margin-bottom: 55px;
+}
+
+.bq {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+
+.highlight {
+     padding: 20px 0px 100px 0px ;
+     box-shadow: 0px 0px 0.7px;
+     background-color: white;
+     margin: 30px 70px;
+}
+
+.speclist {
+    display: flex;
+    justify-content: space-around;
+}
+
+.swipe {
+    display: flex;
+    justify-content: centre;
+    margin-left: 100px;
+}
+
+.mailing-list {
+    background-color: #217C2C;
+    display: flex;
+    font-weight: 500;
+}
+
+.submit {
+    background-color:#FFDD00;
+    font-size: 18px;
+    display: inline;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.email-input {
+    color: white;
+    font-family: poppins;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+
+
+.join {
+    margin: 30px 30px 30px 0px;
+    font-size: 20px;
+}
+
+input[type=text]#st {
+    width: 70%;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.NTA {
+    text-align: center;
+}
+
+footer {
+    font-family: poppins;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+ul.fl1 {
+    list-style-type: none;
+    padding-bottom: 22px;
+    text-align: left;
+}
+
+a.fl {
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.ql {
+    font-size: 23px;
+    color: #217C2C;
+    text-align: left;
+    margin-bottom:27px ;
+}
+
+.closing-remark {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.l1 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.l2 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    line-height: 40px;
+    
+}
+
+.number {
+    font-family: poppins;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.whole-contact {
+    padding-bottom: 22px;
+}
+
+.sm.img {
+    display: block;
+}
+
+.sm {
+   line-height: 40px;
+}
+.mech-logo {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sm-icons {
+    padding-bottom: 20px;
+}
+
+.mbremark {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        width: 100%;
+    }
+
+    .bar{
+        visibility: visible;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+   .headport, .links {
+        display: none;
+    }
+    .view {
+        display: block;
+    }
+    .mobilepic {
+        width: 60%;
+        height: auto;
+    }
+
+    .orchard {
+        display: none;
+    }
+    
+    .mailing-list {
+        margin-top: 100px;
+        background-color: #217C2C;
+        display: block;
+        font-weight: 500;
+        padding-bottom: 20px;
+        /* width: 100%; */
+    }
+
+    .ab {
+        display: flex;
+        width: 60%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .atc,.bn {
+        margin-left: 0px;
+        font-family: Poppins;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.011em;
+        text-align: left;
+        padding: 0px;
+        /* width: 50%; */
+
+    }
+
+    .bn {
+        padding: 2px 25px;
+    }
+    button {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .speclist {
+        display: block;
+    }
+    .bq, .point {
+        font-size: 12px;
+        line-height: 29px;
+    }
+    footer {
+        padding: 30px;
+    }
+
+    .footer-links{
+        display: block;
+        margin-top: 30px;
+        /* padding: 30px; */
+    }
+    
+    .closing-remark{
+        display: none;
+    }
+
+    .sona, .price{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-family: poppins;
+    }
+
+    button.view {
+        padding: 4px 15px;
+        font-size:10px;
+        font-weight: 400;
+        margin-left: 7px;
+        font-family: poppins;
+        border-radius: 7px;
+        position: relative;
+    }
+    
+    button.atc{
+        padding: 4px 8px;
+        font-size:10px;
+        font-weight: 400;
+        margin-left: 7px;
+        font-family: poppins;
+        border-radius: 7px;
+        position: relative;
+    }
+    .product-card {
+        box-shadow: 0 0 10px grey;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+
+    input[type=text]#st {
+        width: 60%;
+        margin-left: 50px;
+       
+    }
+
+    .email-input {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .he {
+        display: none;
+    }
+
+    .mobile {
+        display: contents;
+    }
+
+    .sm-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+    .mbremark {
+        display: contents;
+    }
+
+    .mblogo {
+        display: none;
+    }
+
+}

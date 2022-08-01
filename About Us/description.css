@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+.logobg {
+    color:#FCEC01;
+}
+.circle-icon {
+    background: #217C2C;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.agromech-logo {
+display: flex;
+align-items: center;
+/* width: 20%; */
+}
+
+.navbar-search {
+    width: 45%;
+}
+
+.agromech {
+    font-family: poppins;
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color:#217C2C;
+}
+input[type=text] {
+    font-size: 15px;
+    padding: 10px 50px;
+    display: inline-block;
+    border: 1px solid #217C2C;
+    box-sizing: border-box;
+    width: 80%;
+}
+button {
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    background-color: #217C2C;
+    border: 1px solid #217C2C;
+}
+.account, .wish, .cart {
+    font-family: poppins;
+    font-size: 20px;
+    line-height: 6px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.rni1 , .rni2, .rni3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rightnav-icons {
+    display: flex;
+    /* width: 30%; */
+} 
+
+.c1.img, .c2.img, .c3.img {
+    display: inline;
+}
+
+.bar {
+    visibility: hidden;
+}
+
+ul.nl1 {
+    /* display: flex; */
+    list-style-type: none;
+    background-color: #217C2C;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.click {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px 20px;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+div.red-tractor {
+    background-image: url('./pexels-andy-brodie-8901354\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon {
+    margin-top: 16px; 
+    display: flex;
+}
+
+
+.about-us {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 67.5px;
+    letter-spacing: -1.1%;
+    color: white;
+}
+.hi {
+    padding-top: 5px;
+}
+
+.au {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -1.1%;
+    text-align: left;
+    color: white;
+}
+
+.services {
+    padding-bottom: 150px;
+    background-color: #FFFDE6;
+}
+
+.machine-provider,.reliable,.safe,.shop,.export {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 20%;
+    line-height: 24px;
+    border-radius: 8px;
+    box-shadow:0 0 7px grey; ;
+}
+
+.machine-provider {
+    width: 55%;
+    /* margin-right: 100px; */
+    margin-left: 0;
+   
+}
+
+.he {
+    max-width: 30%;
+    /* margin-left: 30px; */
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lr{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.lower-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-family: poppins;
+}
+
+.choose {
+    text-align: center;
+    font-weight: 500;
+    font-family: poppins;
+    line-height: 30px;
+    margin-top: 30px;
+
+}
+
+.story {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100%;
+    /* padding-left: 50px;
+    padding-top: 10px; */
+
+}
+
+.ha {
+    max-width: 60%;
+}
+
+.mobile {
+    display: none;
+}
+
+.line {
+    border: 1px solid#45914A;
+    width: 6%;
+    margin-bottom: 20px;
+}
+.waw {
+    margin: 10px 0px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.company-scope {
+    font-size: 18px;
+    line-height: 40px;
+    font-family: poppins;
+   
+}
+
+.dm {
+    display: flex;
+    justify-content: center;
+}
+
+.marks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.diary {
+    display: block;
+}
+
+.mailing-list {
+    margin-top: 100px;
+    background-color: #217C2C;
+    display: flex;
+    font-weight: 500;
+}
+
+.submit {
+    background-color:#FFDD00;
+    font-size: 18px;
+    display: inline;
+    border-radius: 6px;
+}
+.email-input {
+    /* margin-left: 100px; */
+    color: white;
+    font-family: poppins;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.join {
+    margin: 30px 30px 30px 0px;
+    font-size: 20px;
+}
+
+input[type=text]#st {
+    width: 70%;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.NTA {
+    text-align: center;
+}
+
+footer {
+    font-family: poppins;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+ul.fl1 {
+    list-style-type: none;
+    padding-bottom: 22px;
+    text-align: left;
+}
+
+a.fl {
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.ql {
+    font-size: 23px;
+    color: #217C2C;
+    text-align: left;
+    margin-bottom:27px ;
+}
+
+.closing-remark {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.l1 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.l2 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    line-height: 40px;
+    
+}
+
+.number {
+    font-family: poppins;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.whole-contact {
+    padding-bottom: 22px;
+}
+
+.sm.img {
+    display: block;
+}
+
+.sm {
+   line-height: 40px;
+}
+.mech-logo {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.sm-icons {
+    padding-bottom: 20px;
+}
+
+.mbremark {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+   .headport {
+        display: none;
+    }
+
+    .mech-logo {
+        padding-bottom: 30px;
+    }
+
+    .marks {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .mk1, .mk2 {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .mk2 {
+        margin-top: 30px;
+    }
+
+    h2 {
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+
+    }
+    .story {
+        display: block;
+        /* justify-content:center; */
+        /* flex-direction: column; */
+        align-items: center;
+        width: 90%;
+        margin: auto;
+       
+    }
+    .bar {
+        visibility: visible;
+    }
+
+    div.red-tractor {
+        height: 30vh;
+    }
+
+    .choose {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gi {
+     line-height: 30px
+    }
+
+    .lower-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 30px;
+        font-family: poppins;
+        margin-bottom: 20px;
+    }
+
+    .machine-provider,.reliable,.safe,.shop,.export {
+        width: 50%;
+        margin:auto;
+        margin-top: 50px;
+        /* margin-left: 0px; */
+    
+    }
+
+    .company-scope {
+        width: 80%;
+        font-size: 20px;
+        line-height: 35.2px;
+        font-family: poppins;
+        text-align: justify;
+    }
+
+    .our {color: #217C2C;}
+
+    .mailing-list {
+        margin-top: 100px;
+        background-color: #217C2C;
+        display: block;
+        font-weight: 500;
+        padding-bottom: 20px;
+        /* width: 100%; */
+    }
+
+    .join {
+        margin: 15px 15px 15px 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .email-input {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .orchard {
+        display: none;
+    }
+
+    .fo{
+        width: 60%;
+        height: auto;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-links{
+        display: block;
+        margin-top: 30px;
+    }
+    
+    .closing-remark{
+        display: none;
+    }
+
+    .sona, .price{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-family: poppins;
+    }
+
+    button.view {
+        padding: 4px 15px;
+        font-size:10px;
+        font-weight: 400;
+        margin-left: 7px;
+        font-family: poppins;
+        border-radius: 7px;
+        position: relative;
+    }
+    
+    button.atc{
+        padding: 4px 8px;
+        font-size:10px;
+        font-weight: 400;
+        margin-left: 7px;
+        font-family: poppins;
+        border-radius: 7px;
+        position: relative;
+    }
+    .product-card {
+        box-shadow: 0 0 10px grey;
+        padding-bottom: 20px;
+        padding-right: 0px;
+    }
+
+    input[type=text]#st {
+        width: 60%;
+        margin-left: 50px;
+       
+    }
+
+    .he {
+        display: none;
+    }
+
+    .mobile {
+        display: contents;
+    }
+
+    .sm-icons {
+        display: flex;
+        justify-content: space-around;
+    }
+    .mbremark {
+        display: contents;
+    }
+
+    .mblogo {
+        display: none;
+    }
+    .l2 {
+        text-align: center;
+    }
+}
